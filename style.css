@@ -2,6 +2,7 @@
 :root {
     --tf: Comfortaa;
     --mf: sans-serif;
+    --lightblue: #9fc9ed;
     --blue: #4a86e8;
     --darkblue: #1c4587;
 }
@@ -46,4 +47,15 @@ p, a {
 }
 .section a:hover {
     background-color: var(--darkblue);
+}
+
+.linkbox {
+    background-color: var(--lightblue);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    max-width: min(80vw, 800px)
 }
