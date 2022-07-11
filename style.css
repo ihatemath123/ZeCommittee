@@ -31,7 +31,7 @@ p, a {
     font-size: 20px;
 }
 
-.section a {
+.linkbox a {
     font-family: var(--tf);
     display: inline-block;
     width: fit-content;
@@ -44,8 +44,9 @@ p, a {
     border-radius: 5px;
     background-color: var(--blue);
     border: solid 2px var(--darkblue);
+    transition: 0.1s;
 }
-.section a:hover {
+.linkbox a:hover {
     background-color: var(--darkblue);
 }
 
