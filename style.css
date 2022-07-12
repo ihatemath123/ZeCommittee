@@ -1,7 +1,9 @@
-@font-face { font-family: Comfortaa; src: url('/Comfortaa.ttf'); }
+@font-face { font-family: Comfortaa; src: url('/fonts/Comfortaa.ttf'); }
+@font-face { font-family: "Open Sans"; src: url('/fonts/OpenSans.ttf'); }
+@font-face { font-family: "Open Sans Italic"; src: url('/fonts/OpenSansIt.ttf'); }
 :root {
     --tf: Comfortaa;
-    --mf: sans-serif;
+    --mf: "Open Sans";
     --lightblue: #e8f7fc;
     --blue: #4a86e8;
     --darkblue: #1c4587;
